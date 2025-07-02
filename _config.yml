@@ -1,0 +1,35 @@
+# GitHub Pages 配置文件
+
+# 指定Jekyll主题（可选，当前使用自定义HTML/CSS）
+# theme: minima
+
+# 网站基本信息
+title: "Liyue Wei - 个人主页"
+description: "Liyue Wei的个人主页，展示项目、技能和联系方式"
+url: "https://liyue-wei.github.io"
+baseurl: ""
+
+# 作者信息
+author:
+  name: "Liyue Wei"
+  email: "your.email@example.com"
+
+# 插件
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# 排除的文件
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# 包含的文件
+include:
+  - .htaccess
